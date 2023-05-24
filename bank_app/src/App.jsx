@@ -1,5 +1,8 @@
 import styles from "./style";
 import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
+import Chat from "./components/Chat/Chat.jsx";
+import ChatAdmin from "./components/Chat/ChatAdmin.jsx";
+import ChatClosed from "./components/Chat/ChatClosed.jsx";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -19,12 +22,10 @@ const App = () => (
       <div className={`${styles.boxWidth}`}>
         <Stats />
         <Business />
-        <Billing />
-        <CardDeal />
-        <Testimonials />
-        <Clients />
-        <CTA />
         <Footer />
+        <Chat/>
+          {/*<ChatAdmin />*/}
+          {/*<ChatClosed />*/}
       </div>
     </div>
   </div>

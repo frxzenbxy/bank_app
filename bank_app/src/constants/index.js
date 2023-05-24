@@ -7,7 +7,7 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Features",
+    title: "Бизнес",
   },
   {
     id: "product",
@@ -31,23 +31,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Награды",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Лучшие кредитные карты предлагают ультимативные комбинации акций и призов.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Полная защита",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Мы предпринимаем активные шаги, чтобы обеспечить безопасность вашей информации и транзакций.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Перевод баланса",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Кредитная карта с переводом баланса может сэкономить вам много денег на процентных платежах.",
   },
 ];
 
@@ -98,65 +98,65 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Полезные ссылки",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "Контент",
+        link: "",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "Как это работает",
+        link: "",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+        name: "Создать",
+        link: "",
       },
       {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        name: "Изучить",
+        link: "",
       },
       {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        name: "Условия и услуги",
+        link: "",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Сообщество",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        name: "Центр поддержки",
+        link: "",
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        name: "Партнеры",
+        link: "",
       },
       {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        name: "Предложения",
+        link: "",
       },
       {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        name: "Блог",
+        link: "",
       },
       {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        name: "Информация",
+        link: "",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Партнерство",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        name: "Наши партнеры",
+        link: "",
       },
       {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "Стань партнером",
+        link: "",
       },
     ],
   },

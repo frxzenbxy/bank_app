@@ -2,6 +2,8 @@ import { useState } from "react";
 
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
+import logotype from "../assets/logotype.png"
+import logoName from "../assets/$ATMM.svg"
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
@@ -9,7 +11,8 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
+      <img src={logotype} alt="SATMM" className="w-[43px] h-[26px] " />
+        <img src={logoName} alt="SATMM" className='px-2'/>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
@@ -18,7 +21,7 @@ const Navbar = () => {
             className={`font-poppins font-normal cursor-pointer text-[16px] ${
               active === nav.title ? "text-white" : "text-dimWhite"
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
-            onClick={() => setActive(nav.title)}
+            onMouseOver={() => setActive(nav.title)}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
@@ -43,7 +46,7 @@ const Navbar = () => {
               <li
                 key={nav.id}
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                  active === nav.title ? "text-white" : "text-dimWhite"
+                  active === nav.title ? "text-gradient" : "text-gradient"
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
               >
